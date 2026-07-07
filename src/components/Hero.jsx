@@ -50,11 +50,7 @@ const WORDS = [
 // কাস্টম ব্লুপ্রিন্ট SVG আইকন ম্যাপ
 const animatedIconMap = {
   "Payments Platform.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       <motion.rect
         x="2"
         y="5"
@@ -68,15 +64,20 @@ const animatedIconMap = {
         variants={pathVariants}
       />
       <motion.line
-        x1="2" y1="9.5" x2="22" y2="9.5"
+        x1="2"
+        y1="9.5"
+        x2="22"
+        y2="9.5"
         stroke="#00D7A3"
         strokeWidth="1.2"
         variants={pathVariants}
       />
       {/* Chip - white, clean small rectangle */}
       <motion.rect
-        x="4.5" y="12"
-        width="3.5" height="2.5"
+        x="4.5"
+        y="12"
+        width="3.5"
+        height="2.5"
         rx="0.4"
         stroke="#FFFFFF"
         strokeWidth="1"
@@ -84,7 +85,10 @@ const animatedIconMap = {
       />
       {/* Balance line - moved down, clear of chip */}
       <motion.line
-        x1="4.5" y1="16.3" x2="9.5" y2="16.3"
+        x1="4.5"
+        y1="16.3"
+        x2="9.5"
+        y2="16.3"
         stroke="#00D7A3"
         strokeWidth="1.2"
         strokeLinecap="round"
@@ -92,7 +96,10 @@ const animatedIconMap = {
       />
       {/* Card number dashes - white */}
       <motion.line
-        x1="13" y1="14" x2="19" y2="14"
+        x1="13"
+        y1="14"
+        x2="19"
+        y2="14"
         stroke="#FFFFFF"
         strokeWidth="1.2"
         strokeLinecap="round"
@@ -101,11 +108,7 @@ const animatedIconMap = {
     </svg>
   ),
   "Booking System.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       <motion.rect
         x="3"
         y="4"
@@ -120,21 +123,30 @@ const animatedIconMap = {
         variants={pathVariants}
       />
       <motion.line
-        x1="16" y1="2" x2="16" y2="6"
+        x1="16"
+        y1="2"
+        x2="16"
+        y2="6"
         stroke="#00D7A3"
         strokeWidth="1.2"
         strokeLinecap="round"
         variants={pathVariants}
       />
       <motion.line
-        x1="8" y1="2" x2="8" y2="6"
+        x1="8"
+        y1="2"
+        x2="8"
+        y2="6"
         stroke="#00D7A3"
         strokeWidth="1.2"
         strokeLinecap="round"
         variants={pathVariants}
       />
       <motion.line
-        x1="3" y1="10" x2="21" y2="10"
+        x1="3"
+        y1="10"
+        x2="21"
+        y2="10"
         stroke="#00D7A3"
         strokeWidth="1.2"
         variants={pathVariants}
@@ -167,11 +179,7 @@ const animatedIconMap = {
     </svg>
   ),
   "CRM Software.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* Main person - white (primary/highlighted contact) */}
       <motion.path
         d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
@@ -182,7 +190,9 @@ const animatedIconMap = {
         variants={pathVariants}
       />
       <motion.circle
-        cx="9" cy="7" r="4"
+        cx="9"
+        cy="7"
+        r="4"
         stroke="#FFFFFF"
         strokeWidth="1.2"
         variants={pathVariants}
@@ -207,11 +217,7 @@ const animatedIconMap = {
     </svg>
   ),
   "Manufacturing Software.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* Outer gear - green */}
       <motion.path
         d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"
@@ -223,7 +229,9 @@ const animatedIconMap = {
       />
       {/* Center circle - white (core/highlighted) */}
       <motion.circle
-        cx="12" cy="12" r="3"
+        cx="12"
+        cy="12"
+        r="3"
         stroke="#FFFFFF"
         strokeWidth="1.2"
         variants={pathVariants}
@@ -231,14 +239,12 @@ const animatedIconMap = {
     </svg>
   ),
   "Scheduling App.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* Outer clock face - green */}
       <motion.circle
-        cx="12" cy="12" r="10"
+        cx="12"
+        cy="12"
+        r="10"
         stroke="#00D7A3"
         strokeWidth="1.2"
         strokeLinecap="round"
@@ -257,11 +263,7 @@ const animatedIconMap = {
     </svg>
   ),
   "Property Management.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* House outline - green */}
       <motion.path
         d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
@@ -282,12 +284,8 @@ const animatedIconMap = {
       />
     </svg>
   ),
- "Transportation Platform.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+  "Transportation Platform.": (
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* Cargo body - green */}
       <motion.rect
         x="1"
@@ -313,13 +311,17 @@ const animatedIconMap = {
       />
       {/* Wheels - green */}
       <motion.circle
-        cx="5.5" cy="18.5" r="2.5"
+        cx="5.5"
+        cy="18.5"
+        r="2.5"
         stroke="#00D7A3"
         strokeWidth="1.2"
         variants={pathVariants}
       />
       <motion.circle
-        cx="18.5" cy="18.5" r="2.5"
+        cx="18.5"
+        cy="18.5"
+        r="2.5"
         stroke="#00D7A3"
         strokeWidth="1.2"
         variants={pathVariants}
@@ -327,11 +329,7 @@ const animatedIconMap = {
     </svg>
   ),
   "Marketplace.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* Storefront body - green */}
       <motion.path
         d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
@@ -342,7 +340,10 @@ const animatedIconMap = {
         variants={pathVariants}
       />
       <motion.line
-        x1="3" y1="6" x2="21" y2="6"
+        x1="3"
+        y1="6"
+        x2="21"
+        y2="6"
         stroke="#00D7A3"
         strokeWidth="1.2"
         variants={pathVariants}
@@ -359,11 +360,7 @@ const animatedIconMap = {
     </svg>
   ),
   "Subscriptions.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* Top-right arrow - white (active/renewing) */}
       <motion.path
         d="M17 2.1l4 4-4 4"
@@ -401,11 +398,7 @@ const animatedIconMap = {
     </svg>
   ),
   "ERP Software.": (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      className="w-full h-full"
-    >
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
       {/* Top layer - white (main/active module) */}
       <motion.polygon
         points="12 2 2 7 12 12 22 7 12 2"
@@ -597,15 +590,26 @@ export default function Hero() {
           </div>
 
           <div className="mt-8 sm:mt-10 flex gap-4 sm:gap-5 flex-wrap items-center justify-center lg:justify-start">
-            <button className="font-['Space_Grotesk'] group rounded-xl bg-[#00D7A3] px-6 sm:px-8 py-3 sm:py-4 text-black font-bold hover:scale-105 duration-300 cursor-pointer flex items-center gap-3 shadow-lg shadow-[#00D7A3]/20 text-sm sm:text-base ">
-              Schedule a Meeting
-              <FaArrowRight className="group-hover:translate-x-2 duration-300" />
-            </button>
+            <button className="font-['Space_Grotesk'] group relative overflow-hidden rounded-xl bg-[#00D7A3] px-6 sm:px-8 py-3 sm:py-4 text-black font-bold hover:scale-105 duration-300 cursor-pointer flex items-center gap-3 shadow-lg shadow-[#00D7A3]/20 text-sm sm:text-base">
+  <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/30 to-transparent" />
+  <span className="relative z-10 flex items-center gap-3">
+    Schedule a Meeting
+    <FaArrowRight className="group-hover:translate-x-2 duration-300" />
+  </span>
+</button>
 
             <button className="flex items-center gap-3 sm:gap-4 group cursor-pointer">
-              <span className="flex h-11 w-11 sm:h-14 sm:w-14 items-center justify-center rounded-full border border-slate-600 group-hover:border-[#00D7A3] transition-colors duration-300 bg-slate-900/40">
+              <motion.span
+                className="flex h-11 w-11 sm:h-14 sm:w-14 items-center justify-center rounded-full border border-slate-600 group-hover:border-[#00D7A3] transition-colors duration-300 bg-slate-900/40"
+                animate={{ rotate: 360 }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "linear",
+                }}
+              >
                 <FaPlay className="text-[#00D7A3] ml-1 text-sm sm:text-base" />
-              </span>
+              </motion.span>
               <span className="font-['Space_Grotesk'] font-semibold text-slate-300 group-hover:text-white transition-colors duration-300 text-sm sm:text-base">
                 Watch 45 Second Overview
               </span>
