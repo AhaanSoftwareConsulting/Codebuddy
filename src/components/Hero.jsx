@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { FaArrowRight, FaPlay } from "react-icons/fa";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 
 // SVG ড্রয়িং অ্যানিমেশনের জন্য নিখুঁত ভেরিয়েন্ট
 const pathVariants = {
