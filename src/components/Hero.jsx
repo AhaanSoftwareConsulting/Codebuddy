@@ -255,12 +255,26 @@ export default function Hero() {
             CodeBuddy Studio & Solutions
           </p>
 
-          <h1 className="font-['Space_Grotesk'] text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.15] sm:leading-[1.1] font-black tracking-tight">
-            Breaking Down<br />
-            Barriers<br />
-            to <span className="text-[#00D7A3]">Software</span><br />
-            Development
-          </h1>
+<h1 className="font-['Space_Grotesk'] font-black tracking-tight text-[42px] sm:text-[52px] lg:text-[72px] leading-[1.05]">
+
+  Breaking Down
+  <br className="hidden lg:block" />
+
+  <span className="lg:hidden"> </span>
+
+  Barriers
+  <br className="hidden lg:block" />
+
+  <span className="lg:hidden"> </span>
+
+  to <span className="text-[#00D7A3]">Software</span>
+  <br className="hidden lg:block" />
+
+  <span className="lg:hidden"> </span>
+
+  Development
+
+</h1>
 
           <p className="font-['Space_Grotesk'] mt-5 sm:mt-6 text-base sm:text-lg lg:text-xl text-slate-300 leading-relaxed">
             You bring the ideas and the business know-how. We provide the blank canvas,
