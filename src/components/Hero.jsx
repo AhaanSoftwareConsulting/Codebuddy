@@ -591,12 +591,12 @@ export default function Hero() {
 
           <div className="mt-8 sm:mt-10 flex gap-4 sm:gap-5 flex-wrap items-center justify-center lg:justify-start">
             <button className="font-['Space_Grotesk'] group relative overflow-hidden rounded-xl bg-[#00D7A3] px-6 sm:px-8 py-3 sm:py-4 text-black font-bold hover:scale-105 duration-300 cursor-pointer flex items-center gap-3 shadow-lg shadow-[#00D7A3]/20 text-sm sm:text-base">
-  <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/30 to-transparent" />
-  <span className="relative z-10 flex items-center gap-3">
-    Schedule a Meeting
-    <FaArrowRight className="group-hover:translate-x-2 duration-300" />
-  </span>
-</button>
+              <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/30 to-transparent" />
+              <span className="relative z-10 flex items-center gap-3">
+                Schedule a Meeting
+                <FaArrowRight className="group-hover:translate-x-2 duration-300" />
+              </span>
+            </button>
 
             <button className="flex items-center gap-3 sm:gap-4 group cursor-pointer">
               <motion.span
